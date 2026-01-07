@@ -60,7 +60,8 @@ h1{
 .intro-ramen{
     width:50%;
     height: auto;
-
+    border: solid #F9FAF8 3px ;
+    border-radius: 3px;
 }
 
 .intro-button{
@@ -101,6 +102,7 @@ h2{
     flex-flow: row wrap;
     gap: 40px;
     justify-content: space-between;
+    margin: 0px 15px;
 }
 
 .card img{
@@ -119,3 +121,68 @@ h2{
     text-align: center;
 }
 
+/* Quote Section */
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    padding: 100px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.Iida{
+    margin-left: auto;
+    padding: 0px 60px;
+}
+
+/* CTA */
+
+.cta{
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px 80px;
+    margin: 100px 80px;
+    justify-content: space-between;
+}
+
+.cta-left{
+    display: flex;
+    flex-flow: column wrap;
+    color: white;
+}
+
+.cta-left p{
+    margin: 0;
+    padding-top: 5px;
+    color: #F9FAF8;
+}
+
+.cta-left h3{
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up{
+    margin-left: 20px;
+    padding: 0px 20px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* footer */
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
